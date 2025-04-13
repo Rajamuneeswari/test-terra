@@ -20,7 +20,7 @@ resource "aws_instance" "test-terra" {
   instance_type = var.ec2_instance_type
   count = var.ec2_instance_count
   tags = {
-    "Name" = "test-terra"
+    "Name" = "test-terracloud"
   }
 
 }
